@@ -1,6 +1,5 @@
 # PowerShell Empire Docker Build
-A docker build for PowerShell Empire (kalilinux/kali-linux-docker base image)
-evasiv3 [ x <at> attactics.org | PGP 2AB3FA6FCA75105F]
+A docker build for PowerShell Empire by evasiv3 [ x <at> attactics.org | PGP 2AB3FA6FCA75105F]
 
 ###Usage & Considerations
 In order to build the docker container yourself, you will need to clone this repository:
