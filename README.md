@@ -13,7 +13,7 @@ docker build -t PowerShellEmpire .
 ```
 Once the image has been built, a container can be created and ran. For example:
 ```sh
-docker run -it --name PowerShellEmpireDocker -p 10.10.10.10:8080:8080 -v /tmp:/tmp PowerShellEmpire
+docker run -it --name PowerShellEmpireDocker -p [HOST_IP]:[HOST_PORT]:[CONTAINER_PORT] -v /tmp:/tmp PowerShellEmpire
 ```
 Taking a look at the run command:
 *  -it instructs docker to let us interact with the container (input & output)
